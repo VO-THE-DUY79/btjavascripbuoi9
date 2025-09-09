@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TÍNH GIÁ TRỊ TRUNG BÌNH</title>
+        <!-- TAILWIND CSS -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <div class="container mx-auto text-center mt-10 py-10">
+            <h1 class="text-7xl text-red-800 font-extrabold">
+                TÍNH GIÁ TRỊ TRUNG BÌNH
+            </h1>
+            <!-- div chứa 5 số thực -->
+            <div class="mt-10 flex items-center flex-col">
+                <!-- số thứ 1 -->
+                <input
+                    class="mt-5 w-100 rounded-md border border-gray-300 shadow-sm px-3 py-2 text-2xl"
+                    type="text"
+                    id="so1"
+                    placeholder="nhập số thứ 1"
+                />
+                <!-- số thứ 2 -->
+                <input
+                    class="mt-5 w-100 rounded-md border border-gray-300 shadow-sm px-3 py-2 text-2xl"
+                    type="text"
+                    id="so2"
+                    placeholder="nhập số thứ 2"
+                />
+                <!-- số thứ 3 -->
+                <input
+                    class="mt-5 w-100 rounded-md border border-gray-300 shadow-sm px-3 py-2 text-2xl"
+                    type="text"
+                    id="so3"
+                    placeholder="nhập số thứ 3"
+                />
+                <!-- số thứ 4 -->
+                <input
+                    class="mt-5 w-100 rounded-md border border-gray-300 shadow-sm px-3 py-2 text-2xl"
+                    type="text"
+                    id="so4"
+                    placeholder="nhập số thứ 4"
+                />
+                <!-- số thứ 5 -->
+                <input
+                    class="mt-5 w-100 rounded-md border border-gray-300 shadow-sm px-3 py-2 text-2xl"
+                    type="text"
+                    id="so5"
+                    placeholder="nhập số thứ 5"
+                />
+            </div>
+            <button
+                id="btn"
+                class="px-4 py-2 bg-blue-600 rounded-md hover:bg-blu-900 my-20 text-xl font-extrabold"
+            >
+                TÍNH >>>
+            </button>
+            <!-- div chứa kết quả -->
+            <div class="text-4xl font-extrabold">
+                giá trị trung bình là :
+                <span
+                    id="TB"
+                    class="bg-gray-100 text-red-800 font-extrabold text-7xl"
+                ></span>
+            </div>
+        </div>
+    </body>
+    <script src="./js/java2.js"></script>
+</html>

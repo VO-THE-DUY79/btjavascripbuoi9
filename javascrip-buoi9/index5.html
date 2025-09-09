@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TÍNH TỔNG 2 KÝ số</title>
+        <!-- TAILWIND CSS -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <div class="container mx-auto text-center mt-10 py-10">
+            <h1 class="text-7xl text-red-800 font-extrabold">
+                TÍNH TỔNG 2 KÝ SỐ
+            </h1>
+            <!-- div chứa số có 2 chữ số-->
+            <div class="mt-10 flex items-center flex-col">
+                <input
+                    class="mt-5 w-100 rounded-md border border-gray-300 shadow-sm px-3 py-2 text-2xl"
+                    type="text"
+                    id="so"
+                    placeholder="nhập số có 2 chữ số"
+                />
+            </div>
+            <button
+                id="btn"
+                class="px-4 py-2 bg-blue-600 rounded-md hover:bg-blu-900 my-20 text-xl font-extrabold"
+            >
+                TÍNH >>>
+            </button>
+            <!-- div chứa kết quả -->
+            <div class="text-4xl font-extrabold">
+                tổng 2 ký số là:
+                <span
+                    id="tong"
+                    class="bg-gray-100 text-red-800 font-extrabold text-7xl"
+                ></span>
+            </div>
+        </div>
+    </body>
+    <script src="./js/java5.js"></script>
+</html>

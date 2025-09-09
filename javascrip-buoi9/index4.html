@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TÍNH DIỆN TÍCH-CHU VI</title>
+        <!-- tailwind cdn -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <div class="container mx-auto text-center mt-10 py-10">
+            <h1 class="text-7xl text-red-800 font-extrabold">
+                KÍCH THƯỚC HÌNH CHỮ NHẬT
+            </h1>
+            <!-- div nhập chiều dài -->
+            <div class="mt-10 flex items-center flex-col">
+                <h2 class="mt-5 text-4xl font-extrabold">CHIỀU DÀI</h2>
+                <input
+                    class="mt-5 w-100 rounded-md border border-gray-300 shadow-sm px-3 py-2 text-2xl"
+                    type="text"
+                    id="chieuDai"
+                    placeholder="nhập chiều dài hình chữ nhật"
+                />
+            </div>
+            <!-- div nhập chiều rộng -->
+            <div class="mt-10 flex items-center flex-col">
+                <h2 class="mt-5 text-4xl font-extrabold">CHIỀU RỘNG</h2>
+                <input
+                    class="mt-5 w-100 rounded-md border border-gray-300 shadow-sm px-3 py-2 text-2xl"
+                    type="text"
+                    id="chieuRong"
+                    placeholder="nhập chiều rộng hình chữ nhật"
+                />
+            </div>
+            <!-- button -->
+            <button
+                id="btn"
+                class="px-4 py-2 bg-blue-600 rounded-md hover:bg-blu-900 my-20 text-xl font-extrabold"
+            >
+                THỰC HIỆN TÍNH  >>>
+            </button>
+            <!-- div chứa kết quả diện tích-->
+            <div class="text-4xl font-extrabold">
+                diện tích:
+                <span
+                    id="dt"
+                    class="bg-gray-100 text-red-800 font-extrabold"
+                ></span>
+            </div>
+            <!-- div chứa kết quả chu vi-->
+            <div class="text-4xl font-extrabold">
+                chu vi:
+                <span
+                    id="cv"
+                    class="bg-gray-100 text-red-800 font-extrabold"
+                ></span>
+            </div>
+        </div>
+    </body>
+    <script src="./js/java4.js"></script>
+</html>
